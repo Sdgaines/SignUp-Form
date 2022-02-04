@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SingUp</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+                <div class="red">
+
+                    <h1>Learn to code by watching others</h1>
+                    
+                    <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+                    but understanding how developers think is invaluable. </p>
+                </div>
+                <div class="purple">
+                    <p><span id="bold">Try it free 7 days</span><span id="light"> then $20/mo. thereafter</span></p>
+                </div>
+                <div class="white">
+                    <form onsubmit="return errorForm()" novalidate>
+
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><input class="inp" id="first" type="text" placeholder="First Name" ></td>
+                                </tr>
+                                <tr>
+                                    <td><div id="fname" class="Error"></div></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="inp" id="last" type="text" placeholder="Last Name"></td>
+                                </tr>
+                                <tr>
+                                    <td><div id="lname" class="Error"></div></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="inp" id="email" type="email" placeholder="Email Address"></td>
+                                </tr>
+                                <tr>
+                                    <td><div id="Ename" class="Error"></div></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="inp" id="password" type="password" placeholder="Password"></td>
+                                </tr>
+                                <tr>
+                                    <td><div id="Pname" class="Error"></div></td>
+                                </tr>
+                                <tr>
+                                    <td><button id="btn" type="submit" value="submit">CLAIM YOUR FREE TRIAL</button></td>
+                                </tr>
+                                <tr>
+                                    <td><p class="small">By clicking the button, you are agreeing to our <span class="exsmall">Terms and Services</span></p></td>
+                                </tr>
+                            
+                            </tbody>
+                            
+                        </table>
+                    </form>
+                    
+                </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
