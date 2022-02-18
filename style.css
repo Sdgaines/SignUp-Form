@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-
+@media screen and (min-width: 471px) {
     * {
         box-sizing: border-box;
-        cursor: pointer; 
     }
-
-@media screen and (min-width: 470px) {
-   
+    
     body {
         background-color: hsl(0, 100%, 74%);
         background-image: url(images/bg-intro-desktop.png);
@@ -27,9 +24,7 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        width: 100vw;
-        margin: 50px;
-        padding: auto auto auto auto;
+        margin: 0 auto;
         overflow: visible;
     }
     
@@ -158,6 +153,10 @@
 }
 
 @media screen and (max-width: 470px) {
+    * {
+        box-sizing: border-box;
+        cursor: pointer;
+    }
     
      body {
         background-color: hsl(0, 100%, 74%);
