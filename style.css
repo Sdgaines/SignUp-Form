@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-@media screen and (min-width: 470px) {
+
     * {
         box-sizing: border-box;
+        cursor: pointer; 
     }
-    
+
+@media screen and (min-width: 470px) {
+   
     body {
         background-color: hsl(0, 100%, 74%);
         background-image: url(images/bg-intro-desktop.png);
@@ -16,6 +19,7 @@
         font-family: 'Poppins', sans-serif;
         font-weight: 400, 500, 600, 700;
         font-size: 16px;
+        min-width: 900px;
     }
     
     .container {
@@ -154,10 +158,6 @@
 }
 
 @media screen and (max-width: 470px) {
-    * {
-        box-sizing: border-box;
-        cursor: pointer;
-    }
     
      body {
         background-color: hsl(0, 100%, 74%);
